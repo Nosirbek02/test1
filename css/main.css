@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap');
+
+body {
+    background: #FEFCF7;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#main__header {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.main__header__container {
+    width: 1281px;
+    height: 64px;
+    padding-top: 35px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.main__header__img {
+    width: 235px;
+    height: 25px;
+    margin-right: 760px;
+}
+
+
+.main__header__text1 {
+    height: 15px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    margin-right: 33px;
+}
+
+.main__header__text2 {
+    height: 15px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    margin-right: 33px;
+}
+
+.main__header__text3 {
+    height: 15px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.main__header__block {
+    display: flex;
+}
+
+.coffee__container {
+    width: 1280px;
+    height: 600px;
+    background: url(../img/coffee_img.svg);
+    margin-bottom: 123px;
+}
+
+.coffee__content {
+    width: 493px;
+    height: 367px;
+    padding-top: 117px;
+    margin-left: 85px;
+}
+
+.coffee__content__title {
+    height: 145px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.coffee__content__text {
+    width: 417px;
+    height: 78px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 56px;
+}
+
+.coffee__button {
+    background: #0E8784;
+    border-radius: 6px;
+    border: 1px solid #0E8784;
+    width: 217px;
+    height: 56px;
+}
+
+.coffee__button__text {
+    height: 25px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+#collection {
+    padding-right: 120px;
+    padding-left: 165px;
+}
+
+.collection__container {
+    width: 1111px;
+    height: 524.55px;
+}
+
+.collection__img {
+    width: 1111px;
+    height: 196px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.collection__container {
+    position: relative;
+}
+
+.collection__type {
+    position: absolute;
+    width: 1111px;
+    height: 398.55px;
+}
+
+
+.collection__type__item1__img {
+    position: absolute;
+    width: 255px;
+    top: -77px;
+    margin-bottom: 72px;
+}
+
+.collection__type__item1__title {
+    position: absolute;
+    height: 32px;
+    left: 35px;
+    right: 0%;
+    top: 200px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin-bottom: 25px;
+}
+
+.collection__type__item1__text {
+    position: absolute;
+    left: 10px;
+    right: 0%;
+    top: 250px;
+    bottom: 0%;
+    width: 255px;
+    height: 78px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+
+.collection__type__item2 {
+    width: 255px;
+}
+
+.collection__type__item2__img {
+    position: absolute;
+    width: 256px;
+    height: 193px;
+    left: 282px;
+    top: -77px;
+    margin-bottom: 72px;
+}
+
+.collection__type__item2__title {
+    position: absolute;
+    height: 32px;
+    left: 355px;
+    right: 0%;
+    top: 200px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin-bottom: 24px;
+}
+
+.collection__type__item2__text {
+    position: absolute;
+    left: 285px;
+    right: 0%;
+    top: 250px;
+    bottom: 0%;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+    width: 255px;
+    height: 78px;
+}
+
+.collection__type__item3__img {
+    position: absolute;
+    width: 256px;
+    height: 193px;
+    left: 572px;
+    top: -77px;
+    margin-bottom: 72px;
+}
+
+.collection__type__item3 {
+    width: 255px;
+}
+
+.collection__type__item3__title {
+    position: absolute;
+    height: 32px;
+    left: 650px;
+    right: 0%;
+    top: 200px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.collection__type__item3__text {
+    position: absolute;
+    left: 595px;
+    right: 0%;
+    top: 250px;
+    bottom: 0%;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    width: 255px;
+    height: 78px;
+}
+
+.collection__type__item4 {
+    width: 255px;
+}
+
+.collection__type__item4__img {
+    position: absolute;
+    width: 234.82px;
+    height: 177.48px;
+    left: 876px;
+    top: -60px;
+    margin-bottom: 72px;
+}
+
+.collection__type__item4__title {
+    position: absolute;
+    height: 32px;
+    left: 935px;
+    right: 0%;
+    top: 200px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.collection__type__item4__text {
+    width: 255px;
+    height: 78px;
+    position: absolute;
+    left: 875px;
+    right: 0%;
+    top: 250px;
+    bottom: 0%;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333D4B;
+}
+
